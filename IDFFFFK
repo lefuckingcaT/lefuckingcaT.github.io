@@ -1,0 +1,202 @@
+/* Extra Variables */
+.theme-dark {
+    --background-secondary: transparent;
+    --background-primary: transparent;
+    --background-floating: #1f1f1f;
+
+        --background-tertiary: var(--dusk-background-1);
+    /*////*/
+    --dusk-background-1: #232323;
+    --dusk-background-2: #1e1e1e;
+    --dusk-activate: hsla(0, 0%, 35%, .25);
+    --selected: #353535 ;
+    --chat-scrollbar-width: 12px;
+    --scrollbar-thumb: #666;
+    --scrollbar-thumb-hover: #aaa7a7;
+    --settings-blurple: #5f5f5f;
+    --speaking-ring: hsla(0, 0%, 93%, 0.75);
+    --mentioned-before: rgba(95, 95, 95, 1);
+    --mentioned: rgba(95, 95, 95, 0.1);
+    --mentioned-hover: rgba(95, 95, 95, 0.2);
+
+
+    --scrollbar-thin-thumb: var(--scrollbar-thumb);
+    --scrollbar-auto-thumb: var(--scrollbar-thumb);
+    --scrollbar-auto-track: transparent;
+
+    --background-modifier-selected: var(--dusk-activate);
+
+    --button-border-color: hsla(240, 4%, 89%, 0.63);
+    --button-text: hsla(240, 4%, 89%, 0.63);
+    --button-border-hover: hsl(240, 4%, 89%);
+    --button-text-hover: hsl(240, 4%, 89%);
+    --button-bg-hover: transparent;
+}
+/**/
+
+/**/
+
+.theme-dark .layerContainer-2v_Sit, .layerContainer-2v_Sit{
+    --background-secondary: var(--dusk-background-2);
+    --background-secondary-alt: var(--dusk-background-1); /**/
+    --background-modifier-selected: var(--dusk-background-1);
+
+}
+
+/* Core */
+#app-mount, .typeWindows-1za-n7 {
+    background-color: #1a1a1a;
+}
+
+/**/
+/* Chat */
+.theme-dark .chat-2ZfjoI {
+    background-color: var(--dm-chat-bg);
+}
+.theme-dark .channelTextArea-1FufC0, .theme-dark .scrollableContainer-15eg7h {
+    background-color: #242424;
+}
+    /* Embeds */
+    .theme-dark .embedFull-1HGV2S, .theme-dark .wrapper-1HIH0j {
+        background-color: var(--dusk-background-2)
+    }
+    /* Auto Complete */
+    .theme-dark .autocomplete-3NRXG8 {background-color: var(--dusk-background-1)}
+    .theme-dark .selected-3H3-RC {background-color: var(--dusk-activate)}
+    /* Dividers */
+    .content-3spvdd {background-color: var(--dm-chat-bg);}
+    /* Code */
+.markup-eYLPri code {
+    background-color: var(--dusk-background-1);
+}
+    /* Members */
+.members-3WRCEx, .members-3WRCEx>div {
+    background: #1e1e1e;
+}
+.clickable-28SzVr.container-1oeRFJ:active, .highlighted-3PcOfB.container-1oeRFJ, .selected-1-Z6gm.container-1oeRFJ {
+    background-color: var(--selected);
+}
+.clickable-28SzVr:hover .layout-1qmrhw {
+    background-color: var(--dusk-activate);
+}
+/* Channels Sidebar */
+.theme-dark .sidebar-1tnWFu {
+    background-color: var(--dusk-background-2);
+}
+
+.theme-dark .panels-3wFtMD {
+    background-color: var(--dusk-background-1)
+}
+    /* Channels Selected */
+    .theme-dark .selected-3veCBZ {
+        background-color: var(--selected)
+    }
+    .theme-dark .interactive-iyXY_x:hover, .wrapper-NhbLHG:hover .content-1gYQeQ {
+        background-color: var(--dusk-activate);
+        transition: .1s cubic-bezier(0.53, 0.07, 0.78, 1.06);
+    }
+    /* Friends tab*/
+    .theme-dark .container-2cd8Mz {background-color:var(--dm-chat-bg)}
+    .theme-dark .inset-SbsSFp {background-color:var(--dusk-background-1)}
+/* Guilds */
+.theme-dark .wrapper-1_HaEi, .theme-dark .guilds-2JjMmN {
+    background-color: var(--dusk-background-1);
+}
+
+.expandedFolderBackground-1kSAf6 {
+    background-color: var(--dusk-activate)
+}
+/* Settings */
+.theme-dark .standardSidebarView-E9Pc3j {
+    background-color: var(--dusk-background-2);
+}
+.theme-dark .contentRegion-3HkfJJ {
+    background-color: var(--dusk-background-1);
+    --background-tertiary: var(--dusk-background-2);
+}
+    .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
+        background-color: var(--selected)
+    }
+    .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP), .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) {
+        background-color: var(--dusk-activate);
+    }
+.theme-dark .cardPrimaryOutline-1ofwVz {
+    background-color: var(--dusk-background-2);
+}
+    /* Buttons */
+    .lookFilled-yCfaCM.colorBrand-I6CyqQ {
+        background-color: transparent;
+        border: var(--button-border-color) 1px solid;
+        color: var(--button-text);
+    }
+    .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+        background-color: var(--button-bg-hover);
+        border-color: var(--button-border-hover);
+        color: var(--button-text-hover)
+    }
+/* Mention Badge */
+.numberBadge-37OJ3S { 
+    display: inline-block;
+    border-radius: 3px; background-clip: padding-box;
+    background-color: #f04747; -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
+    box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
+    color: #242424; font-size: 12px;
+    line-height: 14px; font-weight: 500;
+    padding: 2px 2px !important; text-shadow: 0 1px 0 rgba(0,0,0,.25);
+    text-transform: uppercase; align-items: center;
+
+}
+.wrapper-28eC3z use[href*="lower_badge_masks"] {
+    display: none;
+}
+/* search */
+.theme-dark .option-ayUoaq:hover {
+    background-color: var(--dusk-activate)
+}
+.option-ayUoaq:after {display:none}
+
+
+
+
+/* Old Settings Modal 
+originally created by Zerebos
+*/
+
+:root {
+    --width2: 60%;
+    --height2: 85%;
+}
+.layers-OrUESM {
+    align-items:center;
+    justify-content:center;
+}
+.layers-OrUESM>.layer-86YKbF:first-child {
+    opacity: 1!important;
+    transform: none!important;
+}
+.layers-OrUESM>.layer-86YKbF.stop-animations:first-child {
+    z-index: 1;
+    transition: 250ms ease-in;
+}
+.layers-OrUESM>.layer-86YKbF:nth-child(2)::before {
+    content: "";position: absolute;
+    top: calc((100% - var(--height2)) / -1); 
+    left: calc((100% - var(--width2)) / -1);
+    padding: calc(100% - var(--height2)) calc(100% - var(--width2));
+    background: black;
+    z-index: 2;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    transition: opacity 350ms ease;
+}
+.layers-OrUESM>.layer-86YKbF:nth-child(2) {
+    width: var(--width2);
+    height: var(--height2);
+    top:unset;bottom:unset;
+    right:unset;left:unset;
+    display: block;
+    overflow: visible;
+    transform: translateZ(0);
+    z-index: 3;
+}
